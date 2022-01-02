@@ -30,7 +30,7 @@ Tree *new_tree(int x)
 
 	if(tr == NULL)
 	{
-		fprintf(stderr, "Erreur allocation memoire.\n");
+		fprintf(stderr, "Erreur d'allocation memoire.\n");
 		exit(EXIT_FAILURE);
 	}
 
